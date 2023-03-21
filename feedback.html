@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>sports-news</title>
+        <link rel="icon" type="image/x-icon" href="https://www.gmkfreelogos.com/logos/S/img/Sport-4.gif">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="feedback.html">Feedback-Form</a></li>
+                    <li><a href="NBA.html">NBA-News</a></li>
+                    <li><a href="NFL.html">NFL-News</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <fieldset>
+            <legend>User</legend>
+            <form action="/action_page.php" method="post">
+                
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div>
+                    <h4>Which sports do you enjoy following?</h4>
+                    <label for="nfl">NFL</label>
+                    <input type="checkbox" id="nfl">
+                    <label for="nba">NBA</label>
+                    <input type="checkbox" id="nba">
+                </div>
+
+                <div>
+                    <h4>Are you satisfied with the content on this site?</h4>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="satisfied">
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="satisfied">
+                </div>
+
+                <div>
+                    <h4>Leave a comment:</h4>
+                    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </fieldset>
+        
+    </body>
