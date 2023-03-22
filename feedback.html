@@ -9,12 +9,14 @@
     <body>
         <div>
             <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="feedback.html">Feedback-Form</a></li>
-                    <li><a href="NBA.html">NBA-News</a></li>
-                    <li><a href="NFL.html">NFL-News</a></li>
-                </ul>
+                <nav>
+                    <ul class="menu">
+                        <li><a class="menu1" href="home.html">Home</a></li>
+                        <li><a class="menu1" href="feedback.html">Feedback-Form</a></li>
+                        <li><a class="menu1" href="NBA.html">NBA-News</a></li>
+                        <li><a class="menu1" href="NFL.html">NFL-News</a></li>
+                    </ul>
+                </nav>
             </nav>
         </div>
         
@@ -22,38 +24,37 @@
             <legend>User</legend>
             <form action="/action_page.php" method="post">
                 
-                <div>
+                <div class="fn">
                     <label for="firstName">First Name:</label>
                     <input type="text" id="firstName">
                 </div>
 
-                <div>
+                <div class="ln">
                     <label for="lastName">Last Name:</label>
                     <input type="text" id="lastName">
                 </div>
 
-                <div>
+                <div class="email">
                     <label for="email">Email:</label>
                     <input type="email" id="email">
                 </div>
-
-                <div>
-                    <h4>Which sports do you enjoy following?</h4>
+                <h4 class="rad">Which sports do you enjoy following?</h4>
+                <div class="checkbox">
                     <label for="nfl">NFL</label>
                     <input type="checkbox" id="nfl">
                     <label for="nba">NBA</label>
-                    <input type="checkbox" id="nba">
+                    <input  type="checkbox" id="nba">
                 </div>
-
-                <div>
-                    <h4>Are you satisfied with the content on this site?</h4>
+                
+                <h4 class="check">Are you satisfied with the content on this site?</h4>
+                <div class="radio">
                     <label for="yes">Yes</label>
                     <input type="radio" id="yes" name="satisfied">
                     <label for="no">No</label>
                     <input type="radio" id="no" name="satisfied">
                 </div>
 
-                <div>
+                <div class="textarea">
                     <h4>Leave a comment:</h4>
                     <textarea name="" id="textarea" cols="30" rows="10"></textarea>
                     <button type="submit">Submit</button>
